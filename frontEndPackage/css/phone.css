@@ -1,0 +1,191 @@
+@media (max-width: 1199px) {
+    html {
+        font-size: 14px;
+    }
+}
+
+@media (max-width : 991px) {
+    header .logoBox {
+        min-width: 230px;
+    }
+
+    header .logoBox img.logo {
+        max-width: 90px;
+    }
+
+    header .logoBox .logoText h3 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+
+    header .logoBox .logoText span {
+        font-size: 1rem;
+    }
+
+    header nav.navBar ul li a {
+        padding: 0px .4rem;
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .phMenuBtn {
+        display: none;
+    }
+
+    header nav.navBar ul {
+        margin-right: 1.75rem;
+        border-right: 1px solid #000;
+        border-left: 1px solid #000;
+
+    }
+
+    header nav.navBar ul li:not(:last-child) {
+        border-right: 1px solid #000;
+    }
+}
+
+@media (max-width: 767px) {
+    html {
+        font-size: 12px;
+    }
+
+    header .logoBox img.logo {
+        max-width: 75px;
+        opacity: .6;
+    }
+
+    header .logoBox .logoText h3,
+    header .logoBox .logoText span {
+        color: #96989A;
+    }
+
+    header nav.navBar {
+        display: none;
+    }
+
+    header {
+        position: relative;
+    }
+
+    header nav.navBar {
+        display: block;
+        position: absolute;
+        width: 100%;
+        bottom: 0px;
+        z-index: -1;
+    }
+
+    header nav.navBar ul {
+        margin: 0px;
+        background-color: #0F296F;
+    }
+
+    header nav.navBar ul li {
+        display: block;
+        padding: 1.875rem;
+        text-align: center;
+    }
+
+    header nav.navBar ul li:not(:last-child) {
+        border-bottom: 1px solid #96989A;
+    }
+
+    header nav.navBar ul li a {
+        color: #fff;
+    }
+
+    nav.navBar {
+        -webkit-transition: all 0.55s ease;
+        transition: all 0.55s ease;
+    }
+
+    nav.navBar.active {
+        -webkit-transform: translateY(100%);
+        -moz-transform: translateY(100%);
+        -ms-transform: translateY(100%);
+        -o-transform: translateY(100%);
+        transform: translateY(100%);
+    }
+
+    header .container-fluid.containerMax.pdSpacing {
+        padding: 1rem 0px;
+    }
+
+    .cont-top {
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    #layout-use .rightBox .boxBorder {
+        max-width: 210px;
+        margin: 1.5rem auto;
+    }
+
+    .admin-table-rwd.table-bordered td,
+    .admin-table-rwd.table-bordered th,
+    .admin-table-rwd.table-bordered {
+        text-align: left;
+    }
+
+    .admin-table-rwd.table th,
+    .admin-table-rwd.table td {
+        padding: .75rem;
+    }
+
+    .cont-btm .inforBox .innerBox .inputBox {
+        margin-bottom: 2rem;
+    }
+
+    table.admin-table-rwd.table-bordered tbody tr {
+        border: 1px solid #ddd;
+        margin-bottom: 2rem;
+    }
+
+    .phMenuBtn {
+        margin-right: 1rem;
+    }
+    
+
+    footer .contactBox h4{
+        margin-bottom: 1.15rem;
+    }
+    footer .contactBox a,footer .contactBox span{
+        line-height: 1.5rem;
+    }
+
+    .cont-btm .inforBox h3{
+        display: block;
+    }
+    .cont-btm .inforBox{
+        padding-left: 0px;
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .cont-btm .inforBox .innerBox,.cont-btm .inforBox h3{
+        border-right: 0px;
+        border-left: 0px;
+    }
+    .cont-btm .inforBox .innerBox{
+        border-bottom: 0px;
+    }
+    
+}
+
+@media (max-width: 414px) {
+
+    footer .iconBox img.l-img {
+        max-width: 110px;
+    }
+
+    footer .iconBox img.r-img {
+        max-width: 90px;
+    }
+}
+
+
+@media (max-width: 380px) {
+    #layout-use .leftBox .linkBoxs img {
+        max-width: 140px;
+    }
+}
